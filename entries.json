@@ -1,0 +1,69 @@
+
+{
+  "Admission" :[
+    {
+      "pd_FacilityName" : "NHR",
+      "pd_PICME" : "ch123",
+      "pd_AadharCard" : 123456789012,
+      "pd_Unit" : 1,
+      "pd_BankAcNo" : 60000124356,
+      "pd_PtName" : "Latha",
+      "pd_PtCity" : "Chennai",
+      "pd_PtNurseName" : "Anitha",
+      "pd_PtAdmissionDt" : "2021-05-10"
+    },
+    {
+      "pd_FacilityName" : "CHR",
+      "pd_PICME" : "cgfdr3",
+      "pd_AadharCard" : 246810121416,
+      "pd_Unit" : 2,
+      "pd_BankAcNo" : 600000123467,
+      "pd_PtName" : "Priya",
+      "pd_PtCity" : "Thiruchi",
+      "pd_PtNurseName" : "Suba",
+      "pd_PtAdmissionDt" : "2021-05-14"
+    }
+  ],
+  "Discharge" :
+  [{
+    "pd_FacilityName" : "NHR",
+    "pd_PICME" : "ch123",
+    "pd_AadharCard" : 123456789012,
+    "pd_Unit" : 1,
+    "pd_BankAcNo" : 60000124356,
+    "pd_PtName" : "Latha",
+    "pd_PtCity" : "Chennai",
+    "pd_PtNurseName" : "Anitha",
+    "pd_PtDischargeDt" : "2021-05-14",
+    "do_PatientId" : 18,
+    "do_DeliveryConductedBy" : "doctor",
+    "do_FinalOutcome" : "Referred Out",
+    "do_BabyStatus" : "Live",
+    "do_TermStatus" : "Pre-term",
+    "do_BabyCount" : 1,
+    "do_DCFacultyName" : "John",
+    "do_ModeOfDelivery" : 1,
+    "do_DODateTime" : "2021-05-13"
+  },
+    {
+      "pd_FacilityName" : "CHR",
+      "pd_PICME" : "cgfdr3",
+      "pd_AadharCard" : 246810121416,
+      "pd_Unit" : 2,
+      "pd_BankAcNo" : 600000123467,
+      "pd_PtName" : "Priya",
+      "pd_PtCity" : "Thiruchi",
+      "pd_PtNurseName" : "Suba",
+      "pd_PtDischargeDt" : "2021-05-17",
+      "do_PatientId" : 19,
+      "do_DeliveryConductedBy" : "doctor",
+      "do_FinalOutcome" : "Referred Out",
+      "do_BabyStatus" : "Live",
+      "do_TermStatus" : "Pre-term",
+      "do_BabyCount" : 2,
+      "do_DCFacultyName" : "Sunitha",
+      "do_ModeOfDelivery" : 1,
+      "do_DODateTime" : "2021-05-15"
+    }
+  ]
+}
